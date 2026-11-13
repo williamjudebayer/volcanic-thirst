@@ -1,0 +1,8 @@
+{
+	"effect.volcanic_thirst.hydration": "Hydration",
+	"item.minecraft.potion.effect.purified_water": "Purified Water",
+	"item.minecraft.potion.effect.water": "Unpurified Water",
+	"item.minecraft.splash_potion.effect.purified_water": "Splash Purified Water",
+	"item.minecraft.lingering_potion.effect.purified_water": "Lingering Purified Water",
+	"item.minecraft.tipped_arrow.effect.purified_water": "Arrow of Purified Water"
+}

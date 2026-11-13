@@ -1,0 +1,34 @@
+{
+	"schemaVersion": 1,
+	"id": "volcanic_thirst",
+	"version": "${version}",
+	"name": "Volcanic Thirst",
+	"description": "Thirst meter, Hydration effect and water purification for the Volcanic Ruins civilization event.",
+	"authors": [
+		"Philip"
+	],
+	"license": "All-Rights-Reserved",
+	"icon": "assets/volcanic_thirst/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.volcanicruins.thirst.VolcanicThirst"
+		],
+		"client": [
+			"com.volcanicruins.thirst.client.VolcanicThirstClient"
+		]
+	},
+	"mixins": [
+		"volcanic_thirst.mixins.json",
+		{
+			"config": "volcanic_thirst.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.17.3",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}

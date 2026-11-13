@@ -1,0 +1,11 @@
+{
+	"required": true,
+	"package": "com.volcanicruins.thirst.mixin.client",
+	"compatibilityLevel": "JAVA_21",
+	"client": [
+		"LocalPlayerMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

@@ -1,0 +1,15 @@
+{
+	"required": true,
+	"package": "com.volcanicruins.thirst.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"ItemStackMixin",
+		"PotionBrewingBuilderAccessor"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}
